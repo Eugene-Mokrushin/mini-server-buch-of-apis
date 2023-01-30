@@ -1,0 +1,31 @@
+{
+  "name": "mini-server-buch-of-apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eugene-Mokrushin/mini-server-buch-of-apis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eugene-Mokrushin/mini-server-buch-of-apis/issues"
+  },
+  "homepage": "https://github.com/Eugene-Mokrushin/mini-server-buch-of-apis#readme",
+  "dependencies": {
+    "@qiwi/bill-payments-node-js-sdk": "^3.2.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2",
+    "request-promis": "^0.0.1-security"
+  },
+  "type": "module"
+}
